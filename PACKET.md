@@ -32,6 +32,7 @@ The product will have a simple flow:
 Home → Choose a project → Do the project → Add your work → Get feedback → Reflect → Choose your next experiment
 
 The mockup will show the main screens of this flow.
+![Pathly product mockup](a_clean_modern_product_mockup_composite_image_on.png)
 
 ## 5. User flow
 
