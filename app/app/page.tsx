@@ -264,7 +264,7 @@ export default function Home() {
                 <label className="text-sm font-medium">
                   What did you do?
                 </label>
-                <textarea
+                <textarea maxLength={1000}
                   value={work}
                   onChange={(e) => setWork(e.target.value)}
                   placeholder="Describe the main things you did..."
@@ -276,7 +276,7 @@ export default function Home() {
                 <label className="text-sm font-medium">
                   What was your result?
                 </label>
-                <textarea
+                <textarea maxLength={1000}
                   value={result}
                   onChange={(e) => setResult(e.target.value)}
                   placeholder="What did you produce, decide, or learn?"
@@ -363,7 +363,7 @@ export default function Home() {
                 <label className="text-sm font-medium">
                   What part did you enjoy?
                 </label>
-                <textarea
+                <textarea maxLength={1000}
                   value={reflection.enjoyed}
                   onChange={(e) =>
                     setReflection({ ...reflection, enjoyed: e.target.value })
@@ -377,7 +377,7 @@ export default function Home() {
                 <label className="text-sm font-medium">
                   What was harder than expected?
                 </label>
-                <textarea
+                <textarea maxLength={1000}
                   value={reflection.difficult}
                   onChange={(e) =>
                     setReflection({
@@ -394,7 +394,7 @@ export default function Home() {
                 <label className="text-sm font-medium">
                   What would you like to try next?
                 </label>
-                <textarea
+                <textarea maxLength={1000}
                   value={reflection.next}
                   onChange={(e) =>
                     setReflection({ ...reflection, next: e.target.value })
